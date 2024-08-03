@@ -6,7 +6,7 @@ import { EffectComposer, DepthOfField } from '@react-three/postprocessing'
 
 function Apple({ z }) {
   const ref = useRef()
-  const { nodes, materials } = useGLTF('../../public/untitled-v1-transformed.glb')
+  const { nodes, materials } = useGLTF('./untitled-v1-transformed.glb')
   const { viewport, camera } = useThree()
   const { width, height } = viewport.getCurrentViewport(camera, [0, 0, z])
   const [data] = useState({
