@@ -1,0 +1,26 @@
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 0;
+  font-size: min(18vw, 14em);
+  color: #6c9850;
+}
+
+.apol {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
